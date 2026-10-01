@@ -1,0 +1,20 @@
+{
+  "log": {"loglevel": "info"},
+  "inbounds": [
+    {
+      "port": 2087,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [{"id": "railway-saudi-999"}]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/saudi-ws"
+        }
+      }
+    }
+  ],
+  "outbounds": [{"protocol": "freedom"}]
+}
